@@ -1,9 +1,16 @@
 # od_category
-time reorientation function
+Water reorientation dynamics. 
 
-Dear, Dr. Tommaso,
+The purpose:
+Rotational motion of water molecules plays a crucial role in the breaking and making of HBs. We have therefore quantified the rotational relaxation of the water dipole by computing the first-order Legendre polynomial time correlation function
 
-You can access this code from the account. The code is a bit messy. No instruction is included in line by line.
+P_1 (t)=  <μ ⃗(0)∙μ ⃗(t)>/ <μ ⃗(0)>^2 	
+
+where μ(0) and μ(t) are the unit vectors defining the orientation of the dipole moment of a water molecule at times 0 and t, respectively. The average in Equation more strongly hydrogen-bonded water molecules reorient more slowly was computed over all water molecules in the solution, using several time origins and overlapping intervals [0, t] of equal time length (t = 16 ps)  
+The P1(t) function starts at 1 and decays asymptotically to zero because of the random and isotropic orientation of the water molecules in solution. The early stages of fast loss of correlation is caused by librational motion, whereas the long term decay is due to reorientational motion and can be fit by a bi-exponential model, exp(−t/τ1) + b exp(−t/τ2). The overall time associated with this process, τreor, is given by the sum of the fitting parameters τ1 and τ2.
+
+
+The code is a bit messy. No instruction is included in line by line.
 
 It is constructed of four parts.
 
