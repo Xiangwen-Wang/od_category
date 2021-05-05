@@ -1,7 +1,7 @@
 SUBROUTINE correlation_modified (atmnam_wc, waternam, nwaters, nstep, ini, skip, mux, muy, muz, tcf_auto, tcf_cross)
 
 
-
+!This subroutine is to calculate dipole correlation P1
 !---------------------------------------------------------------!
 !Parameter define                                               !
 !---------------------------------------------------------------!
