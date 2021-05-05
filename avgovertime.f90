@@ -4,7 +4,7 @@ SUBROUTINE avgovertime (naverage, nstep, corr,corr_avg)
 !THIS SUBROUTIN CALCULATES AVERAGE OVER TIME. THE CORR MATRIX HAS 
 !NAVERAGE SETS OF CORRELATION FUNCTION FROM DIFFERENT TIME ORIGIN.
 !WE USE THIS DATA TO GET AVERAGED 'CORRELATION FUNCTION'
-
+!Xiangwen Wang
 
 !DEFINE PARAMETERS----------------------------------------------------
 use shared_data
